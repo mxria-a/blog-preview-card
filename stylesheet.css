@@ -1,0 +1,28 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 522px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 1);
+}
+
+.blog-image {
+    border-radius: 10px;
+}
