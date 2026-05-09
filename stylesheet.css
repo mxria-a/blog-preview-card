@@ -13,7 +13,7 @@
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: 'MyFont', sans-serif;
-    font-size: normal;
+    font-size: 16px;
 }
 
 .card-wrapper {
@@ -26,7 +26,7 @@ body {
 
 .card {
     background-color: hsl(0, 0%, 100%);
-    width: 384px;
+    width: min(384px, 90vw);
     display: flex;
     padding: 24px;
     flex-direction: column;
@@ -40,6 +40,8 @@ body {
 
 .blog-image {
     border-radius: 10px;
+    width: 100%;
+    height: auto;
 }
 
 .content {
@@ -53,18 +55,18 @@ body {
     background-color: hsl(47, 88%, 63%);
     padding: 4px 12px;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: clamp(12px, 1.5vw, 14px);
     font-weight: 800;
     margin: 0;
 }
 
 .publish-date {
-    font-size: 14px;
+    font-size: clamp(12px, 1.5vw, 14px);
     line-height: 150%;
 }
 
 .title {
-    font-size: 24px;
+    font-size: clamp(20px, 2.2vw, 24px);
     margin: 0px;
     font-weight: 800;
     line-height: 150%;
@@ -84,7 +86,7 @@ body {
 }
 
 .author p {
-    font-size: 14px;
+    font-size: clamp(12px, 1.5vw, 14px);
     margin: 0;
     line-height: 150%;
 }
