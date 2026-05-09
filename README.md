@@ -26,6 +26,7 @@ This project helped me improve my understanding of:
 - Controlling spacing (padding, gaps, and margins) more precisely
 - Using custom fonts from local font files with @font-face
 - Alt text for decorative images can be empty, eg. alt=""
+- CSS for responive design
 
 Example of using local font files in CSS:
 
