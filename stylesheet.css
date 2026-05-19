@@ -72,6 +72,10 @@ body {
     line-height: 150%;
 }
 
+.title:hover {
+    color: hsl(47, 88%, 63%);
+}
+
 .description {
     color: hsl(0, 0%, 42%);
     line-height: 150%;
